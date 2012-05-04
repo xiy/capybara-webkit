@@ -1,6 +1,7 @@
 TEMPLATE = app
 TARGET = webkit_server
 DESTDIR = .
+DEFINES += QT_NO_DEBUG_OUTPUT QT_NO_WARNING_OUTPUT
 HEADERS = \
   ResizeWindow.h \
   CurrentUrl.h \
